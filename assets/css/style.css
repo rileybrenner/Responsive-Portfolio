@@ -215,3 +215,26 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* Width at 980px and below */
+
+@media screen and (max-width: 980px) {
+  .container {
+    width: 60%;
+    padding: 0px;
+  }
+
+  /* Width at 768px and below */
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+
+    /* Width at 640px and below */
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 90%;
+  }
